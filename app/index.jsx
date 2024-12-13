@@ -4,8 +4,8 @@ import { Link } from 'expo-router';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Index js</Text>
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-3xl">Index js 11</Text>
       <StatusBar style="auto" />
       <Link href="/profile" style={{color: 'blue'}}>Go to profile</Link>
       <Link href="/home" style={{color: 'blue'}}>Go to home</Link>
